@@ -1,7 +1,7 @@
 import axios from 'axios'
 import Vue from 'vue';
 import firebase from './firebase';
-import {taskListUrls} from '../endPoints/task-data-endpoints'
+import {taskListUrls} from '../endPoints/todo-data-endpoints'
 
 Vue.use(firebase)
 const authkey = 'zTdzQOpWT7jTFB1e8NRCKzWmtc9gPpwxbuUB9g0x'

@@ -30,8 +30,8 @@
                      <tr v-for="(task,index) in tasks" :key="index">
                        <td>{{task.tasktitle}}</td>
                        <td>{{task.taskdescription}}</td>
-                       <td>{{task.status}}</td>
-                       <td><span><i class="fa fa-pencil-square-o editIcon" aria-hidden="true" title="Edit" @click="editTask(task,index,1)"></i></span>&nbsp;&nbsp;<span><i class="fa fa-trash-o deleteIcon" aria-hidden="true" title="Delete" @click="deleteTask(task,index)"></i></span></td>
+                       <td class="text-center">{{task.status}}</td>
+                       <td class="text-center"><span><i class="fa fa-pencil-square-o editIcon" aria-hidden="true" title="Edit" @click="editTask(task,index,1)"></i></span>&nbsp;&nbsp;<span><i class="fa fa-trash-o deleteIcon" aria-hidden="true" title="Delete" @click="deleteTask(task,index)"></i></span></td>
                      </tr>
                    </tbody>
                  </table>
