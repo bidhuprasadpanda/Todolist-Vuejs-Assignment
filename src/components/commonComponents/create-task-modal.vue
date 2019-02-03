@@ -56,7 +56,7 @@ export default {
             newTaskObject.tasktitle = self.taskTitle;
             newTaskObject.taskdescription = self.taskDescription;
             newTaskObject.status = self.taskStatus;
-            if (this.status !== 1) {
+            if (self.status !== 1) {
                 if (flag) {
                     if (self.createNewProgramCallBack !== null) {
                         var taskCreated = self.createTaskCallback(newTaskObject);

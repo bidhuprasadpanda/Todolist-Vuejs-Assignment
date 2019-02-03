@@ -110,7 +110,7 @@ export default {
             });
           return true;
         }
-      },{clickToClose: false,width: 600})
+      },{clickToClose: false,width: 600,adaptive: true})
     }
   }
 }
